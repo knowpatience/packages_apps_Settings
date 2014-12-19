@@ -5978,5 +5978,487 @@
 
    <!-- Message for encryption dialog telling the user that Talkback and other accessibility services will be disabled. -->
    <string name="encrypt_talkback_dialog_message_password">When you enter your password to start this device, accessibility services like <xliff:g id="service" example="TalkBack">%1$s</xliff:g> won\'t yet be available.</string>
+<<<<<<< HEAD
 
+=======
+   
+    <!-- SimpleAOSP build date-->
+    <string name="build_date">SimpleAOSP build date</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Toast message when trying to open system app AppOps -->
+    <string name="appops_sys_app">Cannot change operations for system apps</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_general_category">General</string>
+    <string name="navigation_bar_title">Navigation bar</string>
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Height</string>
+    <string name="navigation_bar_height_54">54dp</string>
+    <string name="navigation_bar_height_52">52dp</string>
+    <string name="navigation_bar_height_50">50dp</string>
+    <string name="navigation_bar_height_48">48dp (default)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
+    <string name="navigation_bar_height_20">20dp</string>
+    <string name="navigation_bar_height_0">0dp (hide)</string>
+ 
+    <!-- Status bar-->
+    <string name="status_bar_general_category">General</string>
+    <string name="status_bar_title">Status bar</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
+
+    <!--  Volume rocker -->
+    <string name="volume_rocker_screen_title">Volume rocker</string>
+    <!--- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Developer options - kill app long press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_summary">Enable various network traffic options in status bar</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- Generic strings -->
+    <string name="ok_string">OK</string>
+    <string name="default_string">Default</string>
+    <string name="enabled_string">Enabled</string>
+    <string name="disabled_string">Disabled</string>
+    <string name="general_string">General</string>
+    <string name="reset_string">Reset</string>
+    <string name="reset">Reset</string>
+    <string name="empty_string">Empty</string>
+    <string name="ok">OK</string>
+    <string name="font_size_sample">Sample</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Sound settings -->
+    <string name="advanced_sound_title">Advanced options</string>
+    <string name="sound_title">Sound</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
+    <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+
+    <!-- Volume Keys Media Control -->
+    <string name="volume_keys_control_media_stream">Media control</string>
+    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Wake up options</string>
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
+
+    <!-- Volume adjust sound -->
+    <string name="volume_key_adjust_sound_title">Volume key adjustment sound</string>
+    <string name="volume_key_adjust_sound_summary">Play sound when adjusting volume with volume keys</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restart SystemUI</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+
+    <!-- Status bar double-tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Double tap to sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+
+    <!-- Status bar brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding finger across status bar</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!--Back to kill timeout -->
+    <string name="long_press_kill_delay">App kill delay</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">LAN Settings</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+  
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Edit light settings</string>
+    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Custom</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Always on</string>
+    <string name="pulse_length_very_short">Very short</string>
+    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Long</string>
+    <string name="pulse_length_very_long">Very long</string>
+    <string name="pulse_speed_very_fast">Very fast</string>
+    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Slow</string>
+    <string name="pulse_speed_very_slow">Very slow</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Battery light</string>
+    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="battery_light_list_title">Colors</string>
+    <string name="battery_light_low_color_title">Battery low</string>
+    <string name="battery_light_medium_color_title">Charging</string>
+    <string name="battery_light_full_color_title">Fully charged</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Notification light</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_phonelist_title">Phone</string>
+    <string name="notification_light_use_custom">Use custom values</string>
+    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_missed_call_title">Missed call</string>
+    <string name="notification_light_voicemail_title">Voicemail</string>
+
+    <!-- Profiles -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_choose_app">Choose app</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
+    <string name="recents_clear_all_location_title">Clear all recents location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- per app controls for keyguard notifications -->
+    <string name="app_notification_show_on_keyguard_title">Show on lock screen</string>
+    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lock screen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lock screen</string>
+
+    <!-- App secuirty -->
+    <string name="app_security_title">App security</string>
+
+   <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blacklist</string>
+    <string name="blacklist_edit_dialog_title">Edit blacklist entry</string>
+    <string name="blacklist_prefs">Settings</string>
+    <string name="blacklist_button_delete">Delete</string>
+    <string name="blacklist_empty_text">You don\'t have any blacklisted numbers. Add an entry by touching the Add (+) button.</string>
+    <string name="blacklist_disabled_empty_text">To blacklist calls and/or messages from certain numbers, enable the blacklist.</string>
+    <string name="blacklist_summary_disabled">Disabled</string>
+    <string name="blacklist_summary">Incoming calls and messages from phone numbers in the blacklist will be blocked</string>
+    <string name="blacklist_notify">Show notification</string>
+    <string name="blacklist_private_numbers_title">Private numbers</string>
+    <string name="blacklist_private_numbers_summary_disabled">Don\'t block calls from private numbers</string>
+    <string name="blacklist_private_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from private numbers</string>
+    <string name="blacklist_unknown_numbers_title">Unknown numbers</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Don\'t block calls or messages from numbers not in the contact list</string>
+    <string name="blacklist_unknown_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from numbers not in the contact list</string>
+    <string name="blacklist_summary_type_calls_only">calls</string>
+    <string name="blacklist_summary_type_messages_only">messages</string>
+    <string name="blacklist_summary_type_calls_and_messages">calls and messages</string>
+    <string name="blacklist_regex_title">Use wildcards</string>
+    <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
+    <string name="blacklist_policy_block_calls">Block incoming calls</string>
+    <string name="blacklist_policy_block_messages">Block incoming messages</string>
+    <string name="blacklist_bad_number_add">Unable to add invalid number to blacklist</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">Add number</string>
+    <string name="remove_blacklist_number_title">Remove number</string>
+    <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
+    <string name="select_contact">Select contact</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock">Clock &amp; date</string>
+    <string name="status_bar_clock_title">Clock &amp; date style</string>
+    <string name="status_bar_clock_summary">Change various clock &amp; date options</string> 
+    <string name="clock_title_enable">Alignment</string>
+    <string name="clock_enabled">Enabled</string>
+    <string name="clock_disabled">Disabled</string>
+    <string name="clock_color_title">Color</string>
+    <string name="status_bar_clock_style_reset">Reset color</string>
+    <string name="status_bar_show_clock_title">Show clock &amp; date</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="enable_clock_weekday">Day of the week</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="right_clock">Right clock</string>
+    <string name="center_clock">Center clock</string>
+    <string name="dont_show">Don\'t show</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="am_pm_clock_normal">Normal font size</string>
+    <string name="am_pm_clock_small">Small font size</string>
+    <string name="am_pm_clock_none">Don\'t show</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
+    <!--Power menu -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu on lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">Enable access to power menu on secure lock screens</string>
+
+    <!--- Sms security limit -->
+    <string name="sms_security_check_limit_title">SMS message limit</string>
+    <string name="sms_security_check_limit_summary">Display an alert dialog to prevent applications from sending SMS messages too frequently. Current limit: %d messages in 15 minutes</string>
+    <string name="sms_security_check_limit_default">30 (Default)</string>
+
+    <!-- Protected Apps -->
+    <string name="menu_hidden_apps_delete">Reset</string>
+    <string name="menu_hidden_apps_reset_lock">Reset pattern lock</string>
+    <string name="protected_apps">Protected apps</string>
+    <string name="saving_protected_components">Saving component state\u2026</string>
+    <string name="launch_app">Launch app</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Reset pattern</string>
+    <string name="lockpattern_settings_reset_summary">Enter primary email account and associated password to reset pattern lock</string>
+    
+    <!-- Protected apps reset -->
+    <string name="pa_login_username_hint">Username (email)</string>
+    <string name="pa_login_password_hint">Password</string>
+    <string name="pa_login_submit_button">Sign in</string>
+    <string name="pa_login_checking_password">Checking account\u2026</string>
+    <string name="pa_login_incorrect_login">Login was incorrect</string>
+
+    <!-- Development shortcut -->
+    <string name="development_shortcut_title">Development shortcut</string>
+    <string name="development_shortcut_summary">Enable application management shortcuts in recent apps list</string>
+
+    <!-- Quick settings disable on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Disable quick settings on lock screen</string>
+    <string name="block_on_secure_keyguard_summary">Disable access to quick settings on secure lock screens</string>
+
+    <!-- QuickSettings: Quick Pulldown -->
+    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down quick settings</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+
+    <!-- Volume rocker music seek options -->
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+    <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
+
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!-- Lockscreen pin shuffle -->
+    <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
+    <string name="lock_numpad_random_dialog_title">PIN pad random order</string>
+    <string name="lock_numpad_random_off">Disabled</string>
+    <string name="lock_numpad_random_always">Always</string>
+    <string name="lock_numpad_random_on_request">On request</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
+    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Disable search bar in recents menu</string>
+    <string name="recents_show_searchbar_summary">Disable or enable the search bar in the recents menu</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_title">Warning color</string>
+    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
+    <string name="heads_up_dnd_title">Do not disturb</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable heads up.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_never_summary">Notification will show until it is dismissed</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_never">Never</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Screen recorder</string>
+    <string name="screen_recorder_summary">Adjust screen recorder settings</string>
+    <string name="screen_recorder_video_dimensions_title">Video size</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <string name="power_menu_screenrecord_title">Screen record</string>
+    <string name="screen_recorder_power_menu_summary">Add a screen record entry in the power menu</string>
+    <!-- video sizes -->
+    <string name="screen_recorder_size_240x400">240x400</string>
+    <string name="screen_recorder_size_360x640">360x640</string>
+    <string name="screen_recorder_size_480x800">480x800</string>
+    <string name="screen_recorder_size_480x854">480x854</string>
+    <string name="screen_recorder_size_540x960">540x960</string>
+    <string name="screen_recorder_size_600x1024">600x1024</string>
+    <string name="screen_recorder_size_720x1280">720x1280</string>
+    <!-- frame rates -->
+    <string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
+    <string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
+    <string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
+    <string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
+    <string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
+    <string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
+    <string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
+    <string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
+    <string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
+    <string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+    <string name="screen_recorder_bitrate_100000">100000</string>
+    <string name="screen_recorder_bitrate_250000">250000</string>
+    <string name="screen_recorder_bitrate_500000">500000</string>
+    <string name="screen_recorder_bitrate_1000000">1000000</string>
+    <string name="screen_recorder_bitrate_2000000">2000000</string>
+    <string name="screen_recorder_bitrate_3000000">3000000</string>
+    <string name="screen_recorder_bitrate_4000000">4000000</string>
+    <string name="screen_recorder_bitrate_5000000">5000000</string>
+    <string name="screen_recorder_bitrate_10000000">10000000</string>
+    <string name="screen_recorder_bitrate_20000000">20000000</string>
+    <string name="screen_recorder_record_audio_title">External audio</string>
+    <string name="screen_recorder_record_audio_summary">Record audio from the microphone</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_power_title">Power off</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
+    <!-- Weather in status bar -->
+    <string name="status_bar_show_weather_title">Show weather</string>
+    <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+
+     <!--- Lock clock -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">View or change how the \'cLock\' widget will display</string>
+    <string name="weather_clock_title">Status bar weather</string>
+    <string name="weather_clock_summary">View or change status bar weather settings</string>
+
+    <!-- Ignore last app when clearing recents -->
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choose whether to dismiss all tasks or ignore the foreground task</string>
+
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
+    <string name="notification_volume_option_title">Notification volume</string>
 </resources>
